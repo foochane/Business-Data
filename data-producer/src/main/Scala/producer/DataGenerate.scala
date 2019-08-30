@@ -11,9 +11,6 @@ import scala.util.Random
  * Created by fucheng on 2019/8/29
  */
 
-
-
-
 object MockDataGenerate {
 
 
