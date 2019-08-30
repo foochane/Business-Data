@@ -97,5 +97,5 @@ spark-submit \
 --class SparkHiveDemo \
 --master spark://Node02:7077 \
 --jars /usr/share/java/mysql-connector-java-5.1.45.jar \
-./sparksql-1.0-SNAPSHOT.jar
+./jar包.jar
 */

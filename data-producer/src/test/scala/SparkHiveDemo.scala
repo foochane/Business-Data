@@ -10,8 +10,8 @@ object SparkHiveDemo {
 
     val sparkConf = new SparkConf()
       .setAppName("Test Spark ")
-      .setMaster("spark://Node02:7077")
-
+//      .setMaster("spark://Node02:7077")
+      .setMaster("local[*]")
     // 创建sparkSession
     val spark = SparkSession
       .builder()
