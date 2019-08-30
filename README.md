@@ -9,7 +9,7 @@
 |:--|:--|
 |data-producer  |数据生成模块|
 |data-analysis  |数据分析模块|
-|web-api        |服务端接口模块
+|web-api        |服务端接口模块|
 |web-ui         |可视化模块|
 
 ## 3 要写的代码
