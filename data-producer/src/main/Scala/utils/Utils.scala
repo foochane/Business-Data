@@ -1,12 +1,15 @@
 package utils
 
-import java.text.SimpleDateFormat
-import java.util.{Calendar, Date}
+import java.util. Date
 
 import net.sf.json.JSONObject
+import org.apache.commons.configuration2.{FileBasedConfiguration, PropertiesConfiguration}
+import org.apache.commons.configuration2.builder.FileBasedConfigurationBuilder
+import org.apache.commons.configuration2.builder.fluent.Parameters
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
-
+import java.util.Properties
+import java.io.FileInputStream
 import scala.collection.mutable
 
 /**
@@ -380,6 +383,21 @@ object ValidUtils {
       }
     }
     false
+  }
+
+}
+
+
+/**
+ * 配置工具类
+ */
+object PropertiesUtils {
+
+  def loadProperties():Properties = {
+    val properties = new Properties()
+    val path = Thread.currentThread().getContextClassLoader.getResource("jdbc.properties").getPath //文件要放到resource文件夹下
+    properties.load(new FileInputStream(path))
+    properties
   }
 
 }
