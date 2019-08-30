@@ -7,7 +7,7 @@
 ## 2 代码结构
 |模块名称|模块功能|
 |:--|:--|
-|data-producer  |数据生产模块|
+|data-producer  |数据生成模块|
 |data-analysis  |数据分析模块|
 |web-api        |服务端接口模块
 |web-ui         |可视化模块|
