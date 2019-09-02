@@ -31,18 +31,27 @@
 
 **代码各个工程分别用IDE打开，不要直接打开根目录**
 
-- 下载代码：
+### 下载代码：
+```
+git clone https://github.com/foochane/business-data.git
+```
 
-    git clone https://github.com/foochane/business-data.git
-
-- 上传代码：
+###上传代码：
 1. add
-    git add .
+```
+git add .
+```
 2. commit
-    git commit -m "添加注释"
+```
+git commit -m "添加注释"
+```
 3. push
-    git push origin master
+```
+git push origin master
+```
+**如果push失败，先pull一下代码**
 
-- 下拉代码：
-
-    git push origin master
+## 下拉代码：
+```
+git push origin master
+```
