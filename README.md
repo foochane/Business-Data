@@ -1,5 +1,4 @@
 # 商业大数据分析系统
-# 修改fc
 ## 1 整体框架
 
 ![框架图](https://github.com/foochane/business-data/raw/master/images/框架图.png)
@@ -26,3 +25,24 @@
 - 从kafka中读取数据写入到mysql （spark streaming）
 - 常见机器学习算法封装
 - 读取mysql中数据发送到浏览器页面（spring boot，mybatis）
+
+
+## 4 代码提交和下载
+
+**代码各个工程分别用IDE打开，不要直接打开根目录**
+
+- 下载代码：
+
+    git clone https://github.com/foochane/business-data.git
+
+- 上传代码：
+1. add
+    git add .
+2. commit
+    git commit -m "添加注释"
+3. push
+    git push origin master
+
+- 下拉代码：
+
+    git push origin master
