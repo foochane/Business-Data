@@ -1,12 +1,9 @@
 # web-ui
 
 
-
 ## 功能 ##
 - [x] 会员分析
 - [x] 其他，待定
-
-
 
 
 ## 目录结构介绍 ##
@@ -58,6 +55,7 @@
 
 
 ## 安装步骤 ##
+
 **安装前先安装nodejs和npm**
 
 	cd web-ui   // 进入系统目录
@@ -181,7 +179,6 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 @import "../static/css/color-dark.css";     /*深色主题*/
 /*@import "../static/css/theme-green/color-green.css";   !*浅绿色主题*!*/
 ```
-
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 background-color/text-color/active-text-color 属性去掉即可。
 
