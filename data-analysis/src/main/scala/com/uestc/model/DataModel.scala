@@ -6,8 +6,7 @@ package com.uestc.model
 
 
 /**
- * 用户信息表
- *
+ * 用户信息表非官方个
  * @param user_id      用户的ID
  * @param username     用户的名称
  * @param name         用户的名字
@@ -24,3 +23,7 @@ case class UserInfo(user_id: Long,
                     city: String,
                     sex: String
                    )
+
+
+
+
