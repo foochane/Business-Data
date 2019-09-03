@@ -2,7 +2,7 @@ package com.uestc.webapi.service.hive.Impl;
 
 
 import com.uestc.webapi.model.hive.Hobby;
-import com.uestc.webapi.service.hive.HiveService;
+import com.uestc.webapi.service.hive.HobbyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class HiveServiceImpl implements HiveService {
+public class HobbyServiceImpl implements HobbyService {
 
 
     @Autowired

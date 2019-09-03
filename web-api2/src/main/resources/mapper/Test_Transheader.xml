@@ -12,7 +12,7 @@
     <sql id="columns">sumamt,dizdate,address,address</sql>
 
 
-    <select id="getTransheaderList" resultMap="com.uestc.webapi.dao.entity.TestTransheaderMap">
+    <select id="getTransheaderList" resultMap="TestTransheaderMap">
         SELECT * FROM test_transheader where count > 0
     </select>
 

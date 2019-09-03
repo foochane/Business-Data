@@ -1,7 +1,7 @@
 package com.uestc.webapi.controller;
 
 import com.uestc.webapi.model.hive.Hobby;
-import com.uestc.webapi.service.hive.HiveService;
+import com.uestc.webapi.service.hive.HobbyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,12 +15,12 @@ import java.util.List;
  * hive Controller
  */
 @Controller
-@RequestMapping("/hive")
-public class HiveController {
+@RequestMapping("/api")
+public class HobbyController {
 
 
     @Autowired
-    private HiveService hiveService;
+    private HobbyService hiveService;
 
     @ResponseBody
     @RequestMapping(value = "/tbList", method = RequestMethod.GET)
