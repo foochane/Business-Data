@@ -32,6 +32,6 @@ object AnalysisTest {
 //      ...
 
     //保存到hive中
-    SaveData.insertHive(spark, "hobbies_classify", hobbiesAnalysis)
+    SaveData.insertHive(spark, "analysis.hobbies_classify", hobbiesAnalysis)
   }
 }
