@@ -13,9 +13,9 @@ object AnalysisTest {
     // 创建Spark SQL 客户端
     val spark = SparkSession.builder().config(sparkConf).enableHiveSupport().getOrCreate()
 
-    spark.sql("select a.interesthobbyname,collect_set(b.customerid) " +
+    spark.sql("select a.interesthobbyname,count(b.customerid) " + //collect_set(b.customerid)列出每个customerid
       "from mysql_data.c_interesthobbies a " +
       "join mysql_data.c_cust_interesthobby b " +
-      "on a.id = b.interesthobbyid group by a.interesthobbyname").collect.foreach(println)
+      "on a.id = b.interesthobbyid group by a.interesthobbyname").show()
   }
 }
