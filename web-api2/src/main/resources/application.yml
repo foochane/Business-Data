@@ -34,7 +34,6 @@ mysql:
       maxPoolPreparedStatementPerConnectionSize: 10
 
 
-
 # 自定义的从数据源配置信息
 hive:
   datasource:
