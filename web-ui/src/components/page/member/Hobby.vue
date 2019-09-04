@@ -64,7 +64,8 @@
                         let num_amt_data = []
                         let num_repo_data = []
                         console.log(data)
-                        for(let i = 0;i<data.length;i++){
+                        // for(let i = 0;i<data.length;i++){
+                        for(let i = 0;i<8;i++){
 
                             let tmp = {"name":data[i].hobby,"value":data[i].num}
                             this.hobbyData.push(tmp)
