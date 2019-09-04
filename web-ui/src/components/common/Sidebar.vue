@@ -56,8 +56,8 @@
                         subs: [
 
                             {
-                                index: 'memberInfo',
-                                title: '会员RFM分析'
+                                index: 'memberHobby',
+                                title: '会员爱好分析'
                             },
                             {
                                 index: 'memberRight',

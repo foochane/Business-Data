@@ -28,9 +28,9 @@ export default new Router({
 
                 // 会员分析
                 {
-                    path: '/memberInfo',
-                    component: resolve => require(['../components/page/member/PageDemo1.vue'], resolve),
-                    meta: { title: '会员RFM分析' }
+                    path: '/memberHobby',
+                    component: resolve => require(['../components/page/member/Hobby.vue'], resolve),
+                    meta: { title: '会员爱好分析' }
                 },
                 {
                     path: '/memberRight',
