@@ -13,7 +13,8 @@ import java.util.List;
 
 
 /**
- * hive Controller
+ * create by fucheng 2019/09/01
+ * api/hobby/list
  */
 @Controller
 @RequestMapping("/api")

@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * create by fucheng 2019/08/27
+ * api/custrepo/list
+ */
+
 @Controller
 @RequestMapping(value = "api")
 public class CustRepoController {
