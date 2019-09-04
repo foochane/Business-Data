@@ -1,5 +1,6 @@
 package com.uestc.webapi.controller;
 
+import com.uestc.webapi.common.Result;
 import com.uestc.webapi.model.hive.Hobby;
 import com.uestc.webapi.service.hive.HobbyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,7 @@ public class HobbyController {
 
     @ResponseBody
     @RequestMapping(value = "/hobby/list", method = RequestMethod.GET)
-    public List<Hobby> getHobbyList(){
+    public Result getHobbyList(){
         return hiveService.getHobbyList();
     }
 
