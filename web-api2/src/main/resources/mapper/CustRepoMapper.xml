@@ -2,7 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.uestc.webapi.dao.mapper.CustRepoMap">
 
-    <!--在配置文件中配置过mybatis.type-aliases-package，否则要写全路径， <resultMap id="userMap" type="com.example.demo.dao.User">-->
     <resultMap id="CustRepoMap" type="com.uestc.webapi.dao.entity.CustRepo">
         <id column="billmouth" jdbcType="VARCHAR" property="billmouth"/>
         <result column="num_amt" jdbcType="INTEGER" property="num_amt"/>

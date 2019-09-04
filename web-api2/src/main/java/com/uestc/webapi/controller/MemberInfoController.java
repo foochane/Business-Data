@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by fucheng on 2019/7/15.
+ * api/member/list
  */
 
 @Controller

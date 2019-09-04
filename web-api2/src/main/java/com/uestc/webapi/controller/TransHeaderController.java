@@ -11,11 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by fucheng on 2019/7/15.
+ * api/transheader/list
  */
 
 @Controller
 @RequestMapping(value = "api")
-public class TestTransheaderController {
+public class TransHeaderController {
 
     @Autowired
     private TestTransheaderService testTransheaderService;

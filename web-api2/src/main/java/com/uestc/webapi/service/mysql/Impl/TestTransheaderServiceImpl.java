@@ -5,7 +5,7 @@ import com.uestc.webapi.common.ListResult;
 import com.uestc.webapi.common.Result;
 import com.uestc.webapi.common.StatEnum;
 import com.uestc.webapi.dao.entity.TestTransheader;
-import com.uestc.webapi.dao.mapper.TestTransheaderMap;
+import com.uestc.webapi.dao.mapper.TransheaderMapper;
 import com.uestc.webapi.model.mysql.TestTransheaderData;
 import com.uestc.webapi.service.mysql.TestTransheaderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +21,10 @@ import java.util.List;
 @Service(value = "testTransheaderService")
 public class TestTransheaderServiceImpl implements TestTransheaderService {
     @Autowired
-    private TestTransheaderMap testTransheaderMap;
+    private TransheaderMapper transheaderMap;
     @Override
     public Result getTransheaderList() {
-        List<TestTransheader> testTransheaderList = testTransheaderMap.getTransheaderList();
+        List<TestTransheader> testTransheaderList = transheaderMap.getTransheaderList();
         List<TestTransheaderData> testTransheaderDataList = new ArrayList<>();
 
 

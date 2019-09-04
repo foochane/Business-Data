@@ -10,6 +10,6 @@ import java.util.List;
  * Created by fucheng on 2019/7/17.
  * vvv
  */
-public interface TestTransheaderMap {
+public interface TransheaderMapper {
     List<TestTransheader> getTransheaderList();
 }

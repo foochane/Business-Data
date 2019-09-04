@@ -1,7 +1,6 @@
 package com.uestc.webapi.controller;
 
 import com.uestc.webapi.common.Result;
-import com.uestc.webapi.model.hive.Hobby;
 import com.uestc.webapi.service.hive.HobbyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

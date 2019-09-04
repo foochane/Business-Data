@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.uestc.webapi.dao.mapper.TestTransheaderMap">
+<mapper namespace="com.uestc.webapi.dao.mapper.TransheaderMapper">
 
-    <!--在配置文件中配置过mybatis.type-aliases-package，否则要写全路径， <resultMap id="userMap" type="com.example.demo.dao.User">-->
-    <resultMap id="TestTransheaderMap" type="com.uestc.webapi.dao.entity.TestTransheader">
+    <resultMap id="TransheaderMap" type="com.uestc.webapi.dao.entity.TestTransheader">
         <id column="count" jdbcType="INTEGER" property="count"/>
         <result column="sumamt" jdbcType="DOUBLE" property="sumamt"/>
         <result column="dizdate" jdbcType="INTEGER" property="dizdate"/>
@@ -12,7 +11,7 @@
     <sql id="columns">sumamt,dizdate,address,address</sql>
 
 
-    <select id="getTransheaderList" resultMap="TestTransheaderMap">
+    <select id="getTransheaderList" resultMap="TransheaderMap">
         SELECT * FROM test_transheader where count > 0
     </select>
 
